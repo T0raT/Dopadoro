@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pomodoro? Dopadoro?
 
-## Getting Started
+We live in doom-scroller's society.
 
-First, run the development server:
+We are constantly bombarded with information, and it is easy to get lost in the noise.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Pomodoro is a simple technique that can help you focus on what matters most.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It is a time management method that uses a timer to break work into intervals.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Traditionally 25 minutes in length, separated by short breaks.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Work in focused sprints, followed by short breaks to recharge and refresh your mind.
 
-## Learn More
+## **\_Just kidding, LOCK THE F\*\*K IN**
 
-To learn more about Next.js, take a look at the following resources:
+But you don't got the time to fool around, your time is now.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You want dopamine, you're gonna work for it.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This timer will drip feed you dopamine... Like a hanging cake with a stick
 
-## Deploy on Vercel
+You'll get to doom-scroll when you get YOUR S\*\*T **_DONE_**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Do you task, you get DDcreds.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Use your DDcreds to exchange for that sweet sweet dopamine.
