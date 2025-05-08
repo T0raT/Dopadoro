@@ -18,6 +18,7 @@ export default function DopaTimer() {
   const [timeLeft, setTimeLeft] = useState(timerTime);
   const [timerPaused, setTimerPaused] = useState(true);
   const timerRef = useRef<Timer>(null);
+  const alertRef = useRef<HTMLAudioElement>(null);
 
   const timerParams: TimerParams = {
     duration: timerTime,
@@ -52,6 +53,10 @@ export default function DopaTimer() {
       timerRef.current?.revert();
       setTimeLeft(timerTime);
       setTimerPaused(true);
+
+      alertRef.current?.play().catch((e) => {
+        console.log(`Error playing audio: ${e}`);
+      });
     }
   }, [timeLeft]);
 
@@ -68,6 +73,7 @@ export default function DopaTimer() {
       <button onClick={playPause} className="m-auto">
         {timerPaused ? "Start" : "Pause"}
       </button>
+      <audio ref={alertRef} src="/alarms/gundam.mp3" />
     </>
   );
 }
